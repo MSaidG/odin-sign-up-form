@@ -50,7 +50,7 @@ h1 {
 #head {
     display: flex;
     background-color: rgba(0, 0, 0, 0.507);
-    width: 68vh;
+    width: 80vh;
     justify-content: center;
     padding: 20px 0px;
 }
@@ -102,7 +102,6 @@ form {
     align-content: start;
     max-height: 18vh;
     min-height: 18vh;
-    overflow: auto;
     gap: 30px 100px;
 
 }
@@ -151,6 +150,8 @@ button {
     height: 33.3%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 10px 0px gray;
+    overflow: auto;
+
 
 }
 
