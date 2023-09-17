@@ -159,3 +159,19 @@ button {
     height: 33.3%;
 
 }
+
+
+input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:invalid:required {
+    background-color: rgba(194, 0, 0, 0.205);
+  }
+  
+  input:valid {
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+  }
+  
